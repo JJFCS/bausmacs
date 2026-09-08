@@ -166,7 +166,8 @@ $ function 4
 ! THEMES & FONTS & APPEARANCES
 #+begin_src emacs-lisp
 
-(load-theme 'modus-vivendi-deuteranopia t)
+(use-package pixel-themes :vc (:url "https://github.com/lucasobx/pixel-themes"))
+(load-theme 'pixel-themes-alia16 t)
 
 (set-face-attribute 'completions-group-title nil :slant 'normal)
 
